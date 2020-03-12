@@ -30,4 +30,5 @@ void stopMonitoring(int id);
 bool isMonitoring(int id);
 bool eventWaiting();
 Event getNextEvent();
+
 } // namespace TeensyButton

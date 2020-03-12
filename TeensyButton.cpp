@@ -1,8 +1,8 @@
 #include "TeensyButton.h"
 
 TeensyButton::Event::Event() {
-  pin = -1;
-  type = -1;
+  pin = 0xff;
+  type = 0xff;
   time = 0;
 }
 
